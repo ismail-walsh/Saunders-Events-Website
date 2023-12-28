@@ -33,4 +33,4 @@ Contributions and suggestions are welcome! If you have ideas for improvements or
 
 Connect with me to discuss collaboration opportunities and web design projects:
 - Email: i.walsh98@hotmail.co.uk
-- website: https://walshwebdesign.webflow.io
+- website: https://www.walshwebdesign.co.uk
