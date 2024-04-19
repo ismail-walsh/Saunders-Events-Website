@@ -3000,9 +3000,9 @@
     }
   });
 
-  // node_modules/symbol-observable/lib/ponyfill.js
+  // node_modules/redux/node_modules/symbol-observable/lib/ponyfill.js
   var require_ponyfill = __commonJS({
-    "node_modules/symbol-observable/lib/ponyfill.js"(exports) {
+    "node_modules/redux/node_modules/symbol-observable/lib/ponyfill.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", {
         value: true
@@ -3026,9 +3026,9 @@
     }
   });
 
-  // node_modules/symbol-observable/lib/index.js
+  // node_modules/redux/node_modules/symbol-observable/lib/index.js
   var require_lib = __commonJS({
-    "node_modules/symbol-observable/lib/index.js"(exports, module) {
+    "node_modules/redux/node_modules/symbol-observable/lib/index.js"(exports, module) {
       "use strict";
       Object.defineProperty(exports, "__esModule", {
         value: true
@@ -3435,10 +3435,10 @@
     }
   });
 
-  // packages/systems/ix2/shared/constants/trigger-events.ts
+  // packages/systems/ix2/shared-constants/trigger-events.ts
   var EventTypeConsts, EventAppliesTo, EventBasedOn, EventContinuousMouseAxes, EventLimitAffectedElements, QuickEffectIds, QuickEffectDirectionConsts;
   var init_trigger_events = __esm({
-    "packages/systems/ix2/shared/constants/trigger-events.ts"() {
+    "packages/systems/ix2/shared-constants/trigger-events.ts"() {
       "use strict";
       EventTypeConsts = {
         NAVBAR_OPEN: "NAVBAR_OPEN",
@@ -3523,10 +3523,10 @@
     }
   });
 
-  // packages/systems/ix2/shared/constants/animation-actions.ts
+  // packages/systems/ix2/shared-constants/animation-actions.ts
   var ActionTypeConsts, ActionAppliesTo;
   var init_animation_actions = __esm({
-    "packages/systems/ix2/shared/constants/animation-actions.ts"() {
+    "packages/systems/ix2/shared-constants/animation-actions.ts"() {
       "use strict";
       ActionTypeConsts = {
         TRANSFORM_MOVE: "TRANSFORM_MOVE",
@@ -3561,10 +3561,10 @@
     }
   });
 
-  // packages/systems/ix2/shared/constants/trigger-interactions.ts
+  // packages/systems/ix2/shared-constants/trigger-interactions.ts
   var InteractionTypeConsts;
   var init_trigger_interactions = __esm({
-    "packages/systems/ix2/shared/constants/trigger-interactions.ts"() {
+    "packages/systems/ix2/shared-constants/trigger-interactions.ts"() {
       "use strict";
       InteractionTypeConsts = {
         MOUSE_CLICK_INTERACTION: "MOUSE_CLICK_INTERACTION",
@@ -3585,10 +3585,10 @@
     }
   });
 
-  // packages/systems/ix2/shared/constants/reduced-motion.ts
+  // packages/systems/ix2/shared-constants/reduced-motion.ts
   var TRANSFORM_MOVE, TRANSFORM_SCALE, TRANSFORM_ROTATE, TRANSFORM_SKEW, STYLE_SIZE, STYLE_FILTER, STYLE_FONT_VARIATION, ReducedMotionTypes;
   var init_reduced_motion = __esm({
-    "packages/systems/ix2/shared/constants/reduced-motion.ts"() {
+    "packages/systems/ix2/shared-constants/reduced-motion.ts"() {
       "use strict";
       init_animation_actions();
       ({
@@ -3612,7 +3612,7 @@
     }
   });
 
-  // packages/systems/ix2/shared/constants/IX2EngineActionTypes.ts
+  // packages/systems/ix2/shared-constants/IX2EngineActionTypes.ts
   var IX2EngineActionTypes_exports = {};
   __export(IX2EngineActionTypes_exports, {
     IX2_ACTION_LIST_PLAYBACK_CHANGED: () => IX2_ACTION_LIST_PLAYBACK_CHANGED,
@@ -3638,7 +3638,7 @@
   });
   var IX2_RAW_DATA_IMPORTED, IX2_SESSION_INITIALIZED, IX2_SESSION_STARTED, IX2_SESSION_STOPPED, IX2_PREVIEW_REQUESTED, IX2_PLAYBACK_REQUESTED, IX2_STOP_REQUESTED, IX2_CLEAR_REQUESTED, IX2_EVENT_LISTENER_ADDED, IX2_EVENT_STATE_CHANGED, IX2_ANIMATION_FRAME_CHANGED, IX2_PARAMETER_CHANGED, IX2_INSTANCE_ADDED, IX2_INSTANCE_STARTED, IX2_INSTANCE_REMOVED, IX2_ELEMENT_STATE_CHANGED, IX2_ACTION_LIST_PLAYBACK_CHANGED, IX2_VIEWPORT_WIDTH_CHANGED, IX2_MEDIA_QUERIES_DEFINED, IX2_TEST_FRAME_RENDERED;
   var init_IX2EngineActionTypes = __esm({
-    "packages/systems/ix2/shared/constants/IX2EngineActionTypes.ts"() {
+    "packages/systems/ix2/shared-constants/IX2EngineActionTypes.ts"() {
       "use strict";
       IX2_RAW_DATA_IMPORTED = "IX2_RAW_DATA_IMPORTED";
       IX2_SESSION_INITIALIZED = "IX2_SESSION_INITIALIZED";
@@ -3663,7 +3663,7 @@
     }
   });
 
-  // packages/systems/ix2/shared/constants/IX2EngineConstants.ts
+  // packages/systems/ix2/shared-constants/IX2EngineConstants.ts
   var IX2EngineConstants_exports = {};
   __export(IX2EngineConstants_exports, {
     ABSTRACT_NODE: () => ABSTRACT_NODE,
@@ -3725,7 +3725,7 @@
   });
   var IX2_ID_DELIMITER, WF_PAGE, W_MOD_JS, W_MOD_IX, BOUNDARY_SELECTOR, CONFIG_X_VALUE, CONFIG_Y_VALUE, CONFIG_Z_VALUE, CONFIG_VALUE, CONFIG_X_UNIT, CONFIG_Y_UNIT, CONFIG_Z_UNIT, CONFIG_UNIT, TRANSFORM, TRANSLATE_X, TRANSLATE_Y, TRANSLATE_Z, TRANSLATE_3D, SCALE_X, SCALE_Y, SCALE_Z, SCALE_3D, ROTATE_X, ROTATE_Y, ROTATE_Z, SKEW, SKEW_X, SKEW_Y, OPACITY, FILTER, FONT_VARIATION_SETTINGS, WIDTH, HEIGHT, BACKGROUND_COLOR, BACKGROUND, BORDER_COLOR, COLOR, DISPLAY, FLEX, WILL_CHANGE, AUTO, COMMA_DELIMITER, COLON_DELIMITER, BAR_DELIMITER, CHILDREN, IMMEDIATE_CHILDREN, SIBLINGS, PARENT, PRESERVE_3D, HTML_ELEMENT, PLAIN_OBJECT, ABSTRACT_NODE, RENDER_TRANSFORM, RENDER_GENERAL, RENDER_STYLE, RENDER_PLUGIN;
   var init_IX2EngineConstants = __esm({
-    "packages/systems/ix2/shared/constants/IX2EngineConstants.ts"() {
+    "packages/systems/ix2/shared-constants/IX2EngineConstants.ts"() {
       "use strict";
       IX2_ID_DELIMITER = "|";
       WF_PAGE = "data-wf-page";
@@ -3786,9 +3786,9 @@
     }
   });
 
-  // packages/systems/ix2/shared/constants/index.ts
-  var constants_exports = {};
-  __export(constants_exports, {
+  // packages/systems/ix2/shared-constants/index.ts
+  var shared_constants_exports = {};
+  __export(shared_constants_exports, {
     ActionAppliesTo: () => ActionAppliesTo,
     ActionTypeConsts: () => ActionTypeConsts,
     EventAppliesTo: () => EventAppliesTo,
@@ -3803,8 +3803,8 @@
     QuickEffectIds: () => QuickEffectIds,
     ReducedMotionTypes: () => ReducedMotionTypes
   });
-  var init_constants = __esm({
-    "packages/systems/ix2/shared/constants/index.ts"() {
+  var init_shared_constants = __esm({
+    "packages/systems/ix2/shared-constants/index.ts"() {
       "use strict";
       init_trigger_events();
       init_animation_actions();
@@ -3812,6 +3812,8 @@
       init_reduced_motion();
       init_IX2EngineActionTypes();
       init_IX2EngineConstants();
+      init_animation_actions();
+      init_trigger_events();
     }
   });
 
@@ -3820,7 +3822,7 @@
   var init_IX2DataReducer = __esm({
     "packages/systems/ix2/engine/reducers/IX2DataReducer.ts"() {
       "use strict";
-      init_constants();
+      init_shared_constants();
       ({ IX2_RAW_DATA_IMPORTED: IX2_RAW_DATA_IMPORTED2 } = IX2EngineActionTypes_exports);
       ixData = (state = Object.freeze({}), action) => {
         switch (action.type) {
@@ -4097,7 +4099,7 @@
   var init_IX2RequestReducer = __esm({
     "packages/systems/ix2/engine/reducers/IX2RequestReducer.ts"() {
       "use strict";
-      init_constants();
+      init_shared_constants();
       import_timm = __toESM(require_timm());
       ({
         IX2_PREVIEW_REQUESTED: IX2_PREVIEW_REQUESTED2,
@@ -4132,7 +4134,7 @@
   var init_IX2SessionReducer = __esm({
     "packages/systems/ix2/engine/reducers/IX2SessionReducer.ts"() {
       "use strict";
-      init_constants();
+      init_shared_constants();
       import_timm2 = __toESM(require_timm());
       ({
         IX2_SESSION_INITIALIZED: IX2_SESSION_INITIALIZED2,
@@ -6765,7 +6767,7 @@
     "packages/systems/ix2/shared/reducers/IX2ElementsReducer.ts"() {
       "use strict";
       import_timm3 = __toESM(require_timm());
-      init_constants();
+      init_shared_constants();
       ({
         HTML_ELEMENT: HTML_ELEMENT2,
         PLAIN_OBJECT: PLAIN_OBJECT2,
@@ -6953,8 +6955,8 @@
       };
       exports.getPluginDestination = getPluginDestination2;
       var createPluginInstance3 = (element, actionItem) => {
-        var _actionItem$config, _actionItem$config$ta;
-        const pluginElementId = actionItem === null || actionItem === void 0 ? void 0 : (_actionItem$config = actionItem.config) === null || _actionItem$config === void 0 ? void 0 : (_actionItem$config$ta = _actionItem$config.target) === null || _actionItem$config$ta === void 0 ? void 0 : _actionItem$config$ta.pluginElement;
+        var _actionItem$config;
+        const pluginElementId = actionItem === null || actionItem === void 0 || (_actionItem$config = actionItem.config) === null || _actionItem$config === void 0 || (_actionItem$config = _actionItem$config.target) === null || _actionItem$config === void 0 ? void 0 : _actionItem$config.pluginElement;
         return pluginElementId ? queryContainerElement(pluginElementId) : null;
       };
       exports.createPluginInstance = createPluginInstance3;
@@ -7015,22 +7017,172 @@
     }
   });
 
-  // packages/systems/ix2/plugins/IX2Variable.js
-  var require_IX2Variable = __commonJS({
-    "packages/systems/ix2/plugins/IX2Variable.js"(exports) {
+  // packages/systems/ix2/shared-utils/normalizeColor.js
+  var require_normalizeColor = __commonJS({
+    "packages/systems/ix2/shared-utils/normalizeColor.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", {
         value: true
       });
-      exports.getPluginOrigin = exports.getPluginDuration = exports.getPluginDestination = exports.getPluginConfig = exports.createPluginInstance = exports.clearPlugin = void 0;
-      exports.normalizeColor = normalizeColor;
-      exports.renderPlugin = void 0;
-      function normalizeColor(inputColor) {
+      exports.normalizeColor = normalizeColor2;
+      var colorNamesObj = {
+        aliceblue: "#F0F8FF",
+        antiquewhite: "#FAEBD7",
+        aqua: "#00FFFF",
+        aquamarine: "#7FFFD4",
+        azure: "#F0FFFF",
+        beige: "#F5F5DC",
+        bisque: "#FFE4C4",
+        black: "#000000",
+        blanchedalmond: "#FFEBCD",
+        blue: "#0000FF",
+        blueviolet: "#8A2BE2",
+        brown: "#A52A2A",
+        burlywood: "#DEB887",
+        cadetblue: "#5F9EA0",
+        chartreuse: "#7FFF00",
+        chocolate: "#D2691E",
+        coral: "#FF7F50",
+        cornflowerblue: "#6495ED",
+        cornsilk: "#FFF8DC",
+        crimson: "#DC143C",
+        cyan: "#00FFFF",
+        darkblue: "#00008B",
+        darkcyan: "#008B8B",
+        darkgoldenrod: "#B8860B",
+        darkgray: "#A9A9A9",
+        darkgreen: "#006400",
+        darkgrey: "#A9A9A9",
+        darkkhaki: "#BDB76B",
+        darkmagenta: "#8B008B",
+        darkolivegreen: "#556B2F",
+        darkorange: "#FF8C00",
+        darkorchid: "#9932CC",
+        darkred: "#8B0000",
+        darksalmon: "#E9967A",
+        darkseagreen: "#8FBC8F",
+        darkslateblue: "#483D8B",
+        darkslategray: "#2F4F4F",
+        darkslategrey: "#2F4F4F",
+        darkturquoise: "#00CED1",
+        darkviolet: "#9400D3",
+        deeppink: "#FF1493",
+        deepskyblue: "#00BFFF",
+        dimgray: "#696969",
+        dimgrey: "#696969",
+        dodgerblue: "#1E90FF",
+        firebrick: "#B22222",
+        floralwhite: "#FFFAF0",
+        forestgreen: "#228B22",
+        fuchsia: "#FF00FF",
+        gainsboro: "#DCDCDC",
+        ghostwhite: "#F8F8FF",
+        gold: "#FFD700",
+        goldenrod: "#DAA520",
+        gray: "#808080",
+        green: "#008000",
+        greenyellow: "#ADFF2F",
+        grey: "#808080",
+        honeydew: "#F0FFF0",
+        hotpink: "#FF69B4",
+        indianred: "#CD5C5C",
+        indigo: "#4B0082",
+        ivory: "#FFFFF0",
+        khaki: "#F0E68C",
+        lavender: "#E6E6FA",
+        lavenderblush: "#FFF0F5",
+        lawngreen: "#7CFC00",
+        lemonchiffon: "#FFFACD",
+        lightblue: "#ADD8E6",
+        lightcoral: "#F08080",
+        lightcyan: "#E0FFFF",
+        lightgoldenrodyellow: "#FAFAD2",
+        lightgray: "#D3D3D3",
+        lightgreen: "#90EE90",
+        lightgrey: "#D3D3D3",
+        lightpink: "#FFB6C1",
+        lightsalmon: "#FFA07A",
+        lightseagreen: "#20B2AA",
+        lightskyblue: "#87CEFA",
+        lightslategray: "#778899",
+        lightslategrey: "#778899",
+        lightsteelblue: "#B0C4DE",
+        lightyellow: "#FFFFE0",
+        lime: "#00FF00",
+        limegreen: "#32CD32",
+        linen: "#FAF0E6",
+        magenta: "#FF00FF",
+        maroon: "#800000",
+        mediumaquamarine: "#66CDAA",
+        mediumblue: "#0000CD",
+        mediumorchid: "#BA55D3",
+        mediumpurple: "#9370DB",
+        mediumseagreen: "#3CB371",
+        mediumslateblue: "#7B68EE",
+        mediumspringgreen: "#00FA9A",
+        mediumturquoise: "#48D1CC",
+        mediumvioletred: "#C71585",
+        midnightblue: "#191970",
+        mintcream: "#F5FFFA",
+        mistyrose: "#FFE4E1",
+        moccasin: "#FFE4B5",
+        navajowhite: "#FFDEAD",
+        navy: "#000080",
+        oldlace: "#FDF5E6",
+        olive: "#808000",
+        olivedrab: "#6B8E23",
+        orange: "#FFA500",
+        orangered: "#FF4500",
+        orchid: "#DA70D6",
+        palegoldenrod: "#EEE8AA",
+        palegreen: "#98FB98",
+        paleturquoise: "#AFEEEE",
+        palevioletred: "#DB7093",
+        papayawhip: "#FFEFD5",
+        peachpuff: "#FFDAB9",
+        peru: "#CD853F",
+        pink: "#FFC0CB",
+        plum: "#DDA0DD",
+        powderblue: "#B0E0E6",
+        purple: "#800080",
+        rebeccapurple: "#663399",
+        red: "#FF0000",
+        rosybrown: "#BC8F8F",
+        royalblue: "#4169E1",
+        saddlebrown: "#8B4513",
+        salmon: "#FA8072",
+        sandybrown: "#F4A460",
+        seagreen: "#2E8B57",
+        seashell: "#FFF5EE",
+        sienna: "#A0522D",
+        silver: "#C0C0C0",
+        skyblue: "#87CEEB",
+        slateblue: "#6A5ACD",
+        slategray: "#708090",
+        slategrey: "#708090",
+        snow: "#FFFAFA",
+        springgreen: "#00FF7F",
+        steelblue: "#4682B4",
+        tan: "#D2B48C",
+        teal: "#008080",
+        thistle: "#D8BFD8",
+        tomato: "#FF6347",
+        turquoise: "#40E0D0",
+        violet: "#EE82EE",
+        wheat: "#F5DEB3",
+        white: "#FFFFFF",
+        whitesmoke: "#F5F5F5",
+        yellow: "#FFFF00",
+        yellowgreen: "#9ACD32"
+      };
+      function normalizeColor2(inputColor) {
         let red;
         let green;
         let blue;
         let alpha = 1;
-        const cleanColor = inputColor.replace(/\s/g, "").toLowerCase();
+        const rawColor = inputColor.replace(/\s/g, "").toLowerCase();
+        const namedColor = typeof colorNamesObj[rawColor] === "string" ? colorNamesObj[rawColor].toLowerCase() : null;
+        const cleanColor = namedColor || rawColor;
         if (cleanColor.startsWith("#")) {
           const hex = cleanColor.substring(1);
           if (hex.length === 3) {
@@ -7134,7 +7286,7 @@
           blue = Math.round((B + m) * 255);
         }
         if (Number.isNaN(red) || Number.isNaN(green) || Number.isNaN(blue)) {
-          `Invalid color in [ix2/lugins/IX2Variable.js] '${inputColor}'`;
+          throw new Error(`Invalid color in [ix2/shared/utils/normalizeColor.js] '${inputColor}'`);
         }
         return {
           red,
@@ -7143,6 +7295,18 @@
           alpha
         };
       }
+    }
+  });
+
+  // packages/systems/ix2/plugins/IX2Variable.js
+  var require_IX2Variable = __commonJS({
+    "packages/systems/ix2/plugins/IX2Variable.js"(exports) {
+      "use strict";
+      Object.defineProperty(exports, "__esModule", {
+        value: true
+      });
+      exports.renderPlugin = exports.getPluginOrigin = exports.getPluginDuration = exports.getPluginDestination = exports.getPluginConfig = exports.createPluginInstance = exports.clearPlugin = void 0;
+      var _normalizeColor = require_normalizeColor();
       var getPluginConfig2 = (actionItemConfig, key) => {
         return actionItemConfig.value[key];
       };
@@ -7164,7 +7328,7 @@
           };
         }
         if (destination.red != null && destination.green != null && destination.blue != null) {
-          return normalizeColor(computedValue);
+          return (0, _normalizeColor.normalizeColor)(computedValue);
         }
       };
       exports.getPluginOrigin = getPluginOrigin2;
@@ -7218,15 +7382,15 @@
         value: true
       });
       exports.pluginMethodMap = void 0;
-      var _constants = (init_constants(), __toCommonJS(constants_exports));
+      var _sharedConstants = (init_shared_constants(), __toCommonJS(shared_constants_exports));
       var lottie = _interopRequireWildcard(require_IX2Lottie());
       var spline = _interopRequireWildcard(require_IX2Spline());
       var variable = _interopRequireWildcard(require_IX2Variable());
-      var pluginMethodMap2 = exports.pluginMethodMap = /* @__PURE__ */ new Map([[_constants.ActionTypeConsts.PLUGIN_LOTTIE, {
+      var pluginMethodMap2 = exports.pluginMethodMap = /* @__PURE__ */ new Map([[_sharedConstants.ActionTypeConsts.PLUGIN_LOTTIE, {
         ...lottie
-      }], [_constants.ActionTypeConsts.PLUGIN_SPLINE, {
+      }], [_sharedConstants.ActionTypeConsts.PLUGIN_SPLINE, {
         ...spline
-      }], [_constants.ActionTypeConsts.PLUGIN_VARIABLE, {
+      }], [_sharedConstants.ActionTypeConsts.PLUGIN_VARIABLE, {
         ...variable
       }]]);
     }
@@ -7462,7 +7626,11 @@
       return false;
     }
     for (let i = 0; i < keysA.length; i++) {
-      if (!hasOwnProperty.call(objB, keysA[i]) || !is(objA[keysA[i]], objB[keysA[i]])) {
+      if (
+        // @ts-expect-error - TS2345 - Argument of type 'string | undefined' is not assignable to parameter of type 'PropertyKey'.
+        !hasOwnProperty.call(objB, keysA[i]) || // @ts-expect-error - TS2538 - Type 'undefined' cannot be used as an index type. | TS2538 - Type 'undefined' cannot be used as an index type.
+        !is(objA[keysA[i]], objB[keysA[i]])
+      ) {
         return false;
       }
     }
@@ -7849,7 +8017,18 @@
       case STYLE_BACKGROUND_COLOR:
       case STYLE_BORDER:
       case STYLE_TEXT_COLOR: {
-        const { rValue, gValue, bValue, aValue } = actionItem.config;
+        const { rValue, gValue, bValue, aValue, globalSwatchId } = actionItem.config;
+        if (globalSwatchId && globalSwatchId.startsWith("--")) {
+          const { getStyle: getStyle2 } = elementApi;
+          const value = getStyle2(element, globalSwatchId);
+          const normalizedValue = (0, import_normalizeColor.normalizeColor)(value);
+          return {
+            rValue: normalizedValue.red,
+            gValue: normalizedValue.green,
+            bValue: normalizedValue.blue,
+            aValue: normalizedValue.alpha
+          };
+        }
         return { rValue, gValue, bValue, aValue };
       }
       case STYLE_FILTER2: {
@@ -7988,9 +8167,13 @@
     const value = rgbValidRegex.test(inlineValue) ? inlineValue : computedStyle[prop];
     const matches = getFirstMatch(rgbMatchRegex, value).split(COMMA_DELIMITER2);
     return {
+      // @ts-expect-error - TS2345 - Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
       rValue: (0, import_defaultTo.default)(parseInt(matches[0], 10), 255),
+      // @ts-expect-error - TS2345 - Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
       gValue: (0, import_defaultTo.default)(parseInt(matches[1], 10), 255),
+      // @ts-expect-error - TS2345 - Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
       bValue: (0, import_defaultTo.default)(parseInt(matches[2], 10), 255),
+      // @ts-expect-error - TS2345 - Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
       aValue: (0, import_defaultTo.default)(parseFloat(matches[3]), 1)
     };
   }
@@ -8273,7 +8456,7 @@
     const { id = "", selector = "", useEventTarget = "" } = target;
     return id + BAR_DELIMITER2 + selector + BAR_DELIMITER2 + useEventTarget;
   }
-  var import_defaultTo, import_reduce, import_findLast, import_timm4, BACKGROUND2, TRANSFORM2, TRANSLATE_3D2, SCALE_3D2, ROTATE_X2, ROTATE_Y2, ROTATE_Z2, SKEW2, PRESERVE_3D2, FLEX2, OPACITY2, FILTER2, FONT_VARIATION_SETTINGS2, WIDTH2, HEIGHT2, BACKGROUND_COLOR2, BORDER_COLOR2, COLOR2, CHILDREN2, IMMEDIATE_CHILDREN2, SIBLINGS2, PARENT2, DISPLAY2, WILL_CHANGE2, AUTO2, COMMA_DELIMITER2, COLON_DELIMITER2, BAR_DELIMITER2, RENDER_TRANSFORM2, RENDER_GENERAL2, RENDER_STYLE2, RENDER_PLUGIN2, TRANSFORM_MOVE2, TRANSFORM_SCALE2, TRANSFORM_ROTATE2, TRANSFORM_SKEW2, STYLE_OPACITY, STYLE_FILTER2, STYLE_FONT_VARIATION2, STYLE_SIZE2, STYLE_BACKGROUND_COLOR, STYLE_BORDER, STYLE_TEXT_COLOR, GENERAL_DISPLAY, OBJECT_VALUE, trim, colorStyleProps, willChangeProps, objectCache, instanceCount, elementCount, strictEqual, pxValueRegex, getFilterDefaults, getFontVariationDefaults, reduceFilters, reduceFontVariations, getItemConfigByKey, transformDefaults, filterDefaults, fontVariationDefaults, getFilterUnit, transformKeys, paramCapture, rgbValidRegex, rgbMatchRegex, processElementByType;
+  var import_defaultTo, import_reduce, import_findLast, import_timm4, import_normalizeColor, BACKGROUND2, TRANSFORM2, TRANSLATE_3D2, SCALE_3D2, ROTATE_X2, ROTATE_Y2, ROTATE_Z2, SKEW2, PRESERVE_3D2, FLEX2, OPACITY2, FILTER2, FONT_VARIATION_SETTINGS2, WIDTH2, HEIGHT2, BACKGROUND_COLOR2, BORDER_COLOR2, COLOR2, CHILDREN2, IMMEDIATE_CHILDREN2, SIBLINGS2, PARENT2, DISPLAY2, WILL_CHANGE2, AUTO2, COMMA_DELIMITER2, COLON_DELIMITER2, BAR_DELIMITER2, RENDER_TRANSFORM2, RENDER_GENERAL2, RENDER_STYLE2, RENDER_PLUGIN2, TRANSFORM_MOVE2, TRANSFORM_SCALE2, TRANSFORM_ROTATE2, TRANSFORM_SKEW2, STYLE_OPACITY, STYLE_FILTER2, STYLE_FONT_VARIATION2, STYLE_SIZE2, STYLE_BACKGROUND_COLOR, STYLE_BORDER, STYLE_TEXT_COLOR, GENERAL_DISPLAY, OBJECT_VALUE, trim, colorStyleProps, willChangeProps, objectCache, instanceCount, elementCount, strictEqual, pxValueRegex, getFilterDefaults, getFontVariationDefaults, reduceFilters, reduceFontVariations, getItemConfigByKey, transformDefaults, filterDefaults, fontVariationDefaults, getFilterUnit, transformKeys, paramCapture, rgbValidRegex, rgbMatchRegex, processElementByType;
   var init_IX2VanillaUtils = __esm({
     "packages/systems/ix2/shared/logic/IX2VanillaUtils.ts"() {
       "use strict";
@@ -8281,9 +8464,10 @@
       import_reduce = __toESM(require_reduce());
       import_findLast = __toESM(require_findLast());
       import_timm4 = __toESM(require_timm());
-      init_constants();
+      init_shared_constants();
       init_shallowEqual();
       init_IX2EasingUtils();
+      import_normalizeColor = __toESM(require_normalizeColor());
       init_IX2VanillaPlugins();
       init_IX2BrowserSupport();
       ({
@@ -8533,7 +8717,7 @@
   var init_IX2InstancesReducer = __esm({
     "packages/systems/ix2/engine/reducers/IX2InstancesReducer.ts"() {
       "use strict";
-      init_constants();
+      init_shared_constants();
       import_shared = __toESM(require_shared2());
       import_timm5 = __toESM(require_timm());
       ({
@@ -8827,7 +9011,7 @@
   var init_IX2ParametersReducer = __esm({
     "packages/systems/ix2/engine/reducers/IX2ParametersReducer.ts"() {
       "use strict";
-      init_constants();
+      init_shared_constants();
       ({ IX2_RAW_DATA_IMPORTED: IX2_RAW_DATA_IMPORTED4, IX2_SESSION_STOPPED: IX2_SESSION_STOPPED5, IX2_PARAMETER_CHANGED: IX2_PARAMETER_CHANGED2 } = IX2EngineActionTypes_exports);
       ixParameters = (state = {
         /*mutable flat state*/
@@ -9515,7 +9699,7 @@
   var init_IX2EngineActions = __esm({
     "packages/systems/ix2/engine/actions/IX2EngineActions.ts"() {
       "use strict";
-      init_constants();
+      init_shared_constants();
       import_shared3 = __toESM(require_shared2());
       ({
         IX2_RAW_DATA_IMPORTED: IX2_RAW_DATA_IMPORTED5,
@@ -9714,6 +9898,9 @@
     element.style[prop] = value;
   }
   function getStyle(element, prop) {
+    if (prop.startsWith("--")) {
+      return window.getComputedStyle(document.documentElement).getPropertyValue(prop);
+    }
     return element.style[prop];
   }
   function getProperty(element, prop) {
@@ -9806,7 +9993,7 @@
     "packages/systems/ix2/engine/logic/IX2BrowserApi.ts"() {
       "use strict";
       import_shared4 = __toESM(require_shared2());
-      init_constants();
+      init_shared_constants();
       ({ ELEMENT_MATCHES: ELEMENT_MATCHES2 } = import_shared4.IX2BrowserSupport);
       ({ IX2_ID_DELIMITER: IX2_ID_DELIMITER2, HTML_ELEMENT: HTML_ELEMENT3, PLAIN_OBJECT: PLAIN_OBJECT3, WF_PAGE: WF_PAGE2 } = IX2EngineConstants_exports);
       getClosestElement = Element.prototype.closest ? (element, selector) => {
@@ -10337,7 +10524,7 @@
       import_flow = __toESM(require_flow());
       import_get = __toESM(require_get());
       import_clamp = __toESM(require_clamp());
-      init_constants();
+      init_shared_constants();
       init_IX2VanillaEngine();
       init_IX2EngineActions();
       import_shared5 = __toESM(require_shared2());
@@ -11722,7 +11909,7 @@
       import_mapValues = __toESM(require_mapValues());
       import_forEach = __toESM(require_forEach());
       import_throttle = __toESM(require_throttle());
-      init_constants();
+      init_shared_constants();
       import_shared6 = __toESM(require_shared2());
       init_IX2EngineActions();
       init_IX2BrowserApi();
@@ -11864,6 +12051,9 @@
           }
         }
         function select(link) {
+          if (link.getAttribute("hreflang")) {
+            return;
+          }
           var href = designer && link.getAttribute("href-disabled") || link.getAttribute("href");
           tempLink.href = href;
           if (href.indexOf(":") >= 0) {
@@ -11892,6 +12082,9 @@
           var viewTop = $win.scrollTop();
           var viewHeight = $win.height();
           _.each(anchors, function(anchor) {
+            if (anchor.link.attr("hreflang")) {
+              return;
+            }
             var $link = anchor.link;
             var $section = anchor.sec;
             var top = $section.offset().top;
@@ -12653,253 +12846,652 @@
     }
   });
 
-  // packages/shared/render/plugins/Tabs/webflow-tabs.js
-  var require_webflow_tabs = __commonJS({
-    "packages/shared/render/plugins/Tabs/webflow-tabs.js"(exports, module) {
+  // packages/shared/render/plugins/Slider/webflow-slider.js
+  var require_webflow_slider = __commonJS({
+    "packages/shared/render/plugins/Slider/webflow-slider.js"(exports, module) {
       "use strict";
       var Webflow = require_webflow_lib();
       var IXEvents = require_webflow_ix2_events();
-      Webflow.define("tabs", module.exports = function($) {
+      var KEY_CODES = {
+        ARROW_LEFT: 37,
+        ARROW_UP: 38,
+        ARROW_RIGHT: 39,
+        ARROW_DOWN: 40,
+        SPACE: 32,
+        ENTER: 13,
+        HOME: 36,
+        END: 35
+      };
+      var FOCUSABLE_SELECTOR = 'a[href], area[href], [role="button"], input, select, textarea, button, iframe, object, embed, *[tabindex], *[contenteditable]';
+      Webflow.define("slider", module.exports = function($, _) {
         var api = {};
         var tram = $.tram;
         var $doc = $(document);
-        var $tabs;
-        var design;
-        var env = Webflow.env;
-        var safari = env.safari;
-        var inApp = env();
-        var tabAttr = "data-w-tab";
-        var paneAttr = "data-w-pane";
-        var namespace = ".w-tabs";
-        var linkCurrent = "w--current";
-        var tabActive = "w--tab-active";
+        var $sliders;
+        var designer;
+        var inApp = Webflow.env();
+        var namespace = ".w-slider";
+        var dot = '<div class="w-slider-dot" data-wf-ignore />';
+        var ariaLiveLabelHtml = '<div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore />';
+        var forceShow = "w-slider-force-show";
         var ix = IXEvents.triggers;
+        var fallback;
         var inRedraw = false;
-        api.ready = api.design = api.preview = init;
+        api.ready = function() {
+          designer = Webflow.env("design");
+          init();
+        };
+        api.design = function() {
+          designer = true;
+          setTimeout(init, 1e3);
+        };
+        api.preview = function() {
+          designer = false;
+          init();
+        };
         api.redraw = function() {
           inRedraw = true;
           init();
           inRedraw = false;
         };
-        api.destroy = function() {
-          $tabs = $doc.find(namespace);
-          if (!$tabs.length) {
-            return;
-          }
-          $tabs.each(resetIX);
-          removeListeners();
-        };
+        api.destroy = removeListeners;
         function init() {
-          design = inApp && Webflow.env("design");
-          $tabs = $doc.find(namespace);
-          if (!$tabs.length) {
+          $sliders = $doc.find(namespace);
+          if (!$sliders.length) {
             return;
           }
-          $tabs.each(build);
-          if (Webflow.env("preview") && !inRedraw) {
-            $tabs.each(resetIX);
+          $sliders.each(build);
+          if (fallback) {
+            return;
           }
           removeListeners();
           addListeners();
         }
         function removeListeners() {
+          Webflow.resize.off(renderAll);
           Webflow.redraw.off(api.redraw);
         }
         function addListeners() {
+          Webflow.resize.on(renderAll);
           Webflow.redraw.on(api.redraw);
         }
-        function resetIX(i, el) {
-          var data = $.data(el, namespace);
-          if (!data) {
-            return;
-          }
-          data.links && data.links.each(ix.reset);
-          data.panes && data.panes.each(ix.reset);
+        function renderAll() {
+          $sliders.filter(":visible").each(render);
         }
         function build(i, el) {
-          var widgetHash = namespace.substr(1) + "-" + i;
           var $el = $(el);
           var data = $.data(el, namespace);
           if (!data) {
             data = $.data(el, namespace, {
+              index: 0,
+              depth: 1,
+              hasFocus: {
+                keyboard: false,
+                mouse: false
+              },
               el: $el,
               config: {}
             });
           }
-          data.current = null;
-          data.tabIdentifier = widgetHash + "-" + tabAttr;
-          data.paneIdentifier = widgetHash + "-" + paneAttr;
-          data.menu = $el.children(".w-tab-menu");
-          data.links = data.menu.children(".w-tab-link");
-          data.content = $el.children(".w-tab-content");
-          data.panes = data.content.children(".w-tab-pane");
+          data.mask = $el.children(".w-slider-mask");
+          data.left = $el.children(".w-slider-arrow-left");
+          data.right = $el.children(".w-slider-arrow-right");
+          data.nav = $el.children(".w-slider-nav");
+          data.slides = data.mask.children(".w-slide");
+          data.slides.each(ix.reset);
+          if (inRedraw) {
+            data.maskWidth = 0;
+          }
+          if ($el.attr("role") === void 0) {
+            $el.attr("role", "region");
+          }
+          if ($el.attr("aria-label") === void 0) {
+            $el.attr("aria-label", "carousel");
+          }
+          var slideViewId = data.mask.attr("id");
+          if (!slideViewId) {
+            slideViewId = "w-slider-mask-" + i;
+            data.mask.attr("id", slideViewId);
+          }
+          if (!designer && !data.ariaLiveLabel) {
+            data.ariaLiveLabel = $(ariaLiveLabelHtml).appendTo(data.mask);
+          }
+          data.left.attr("role", "button");
+          data.left.attr("tabindex", "0");
+          data.left.attr("aria-controls", slideViewId);
+          if (data.left.attr("aria-label") === void 0) {
+            data.left.attr("aria-label", "previous slide");
+          }
+          data.right.attr("role", "button");
+          data.right.attr("tabindex", "0");
+          data.right.attr("aria-controls", slideViewId);
+          if (data.right.attr("aria-label") === void 0) {
+            data.right.attr("aria-label", "next slide");
+          }
+          if (!tram.support.transform) {
+            data.left.hide();
+            data.right.hide();
+            data.nav.hide();
+            fallback = true;
+            return;
+          }
           data.el.off(namespace);
-          data.links.off(namespace);
-          data.menu.attr("role", "tablist");
-          data.links.attr("tabindex", "-1");
+          data.left.off(namespace);
+          data.right.off(namespace);
+          data.nav.off(namespace);
           configure(data);
-          if (!design) {
-            data.links.on("click" + namespace, linkSelect(data));
-            data.links.on("keydown" + namespace, handleLinkKeydown(data));
-            var $link = data.links.filter("." + linkCurrent);
-            var tab = $link.attr(tabAttr);
-            tab && changeTab(data, {
-              tab,
+          if (designer) {
+            data.el.on("setting" + namespace, handler(data));
+            stopTimer(data);
+            data.hasTimer = false;
+          } else {
+            data.el.on("swipe" + namespace, handler(data));
+            data.left.on("click" + namespace, previousFunction(data));
+            data.right.on("click" + namespace, next(data));
+            data.left.on("keydown" + namespace, keyboardSlideButtonsFunction(data, previousFunction));
+            data.right.on("keydown" + namespace, keyboardSlideButtonsFunction(data, next));
+            data.nav.on("keydown" + namespace, "> div", handler(data));
+            if (data.config.autoplay && !data.hasTimer) {
+              data.hasTimer = true;
+              data.timerCount = 1;
+              startTimer(data);
+            }
+            data.el.on("mouseenter" + namespace, hasFocus(data, true, "mouse"));
+            data.el.on("focusin" + namespace, hasFocus(data, true, "keyboard"));
+            data.el.on("mouseleave" + namespace, hasFocus(data, false, "mouse"));
+            data.el.on("focusout" + namespace, hasFocus(data, false, "keyboard"));
+          }
+          data.nav.on("click" + namespace, "> div", handler(data));
+          if (!inApp) {
+            data.mask.contents().filter(function() {
+              return this.nodeType === 3;
+            }).remove();
+          }
+          var $elHidden = $el.filter(":hidden");
+          $elHidden.addClass(forceShow);
+          var $elHiddenParents = $el.parents(":hidden");
+          $elHiddenParents.addClass(forceShow);
+          if (!inRedraw) {
+            render(i, el);
+          }
+          $elHidden.removeClass(forceShow);
+          $elHiddenParents.removeClass(forceShow);
+        }
+        function configure(data) {
+          var config = {};
+          config.crossOver = 0;
+          config.animation = data.el.attr("data-animation") || "slide";
+          if (config.animation === "outin") {
+            config.animation = "cross";
+            config.crossOver = 0.5;
+          }
+          config.easing = data.el.attr("data-easing") || "ease";
+          var duration = data.el.attr("data-duration");
+          config.duration = duration != null ? parseInt(duration, 10) : 500;
+          if (isAttrTrue(data.el.attr("data-infinite"))) {
+            config.infinite = true;
+          }
+          if (isAttrTrue(data.el.attr("data-disable-swipe"))) {
+            config.disableSwipe = true;
+          }
+          if (isAttrTrue(data.el.attr("data-hide-arrows"))) {
+            config.hideArrows = true;
+          } else if (data.config.hideArrows) {
+            data.left.show();
+            data.right.show();
+          }
+          if (isAttrTrue(data.el.attr("data-autoplay"))) {
+            config.autoplay = true;
+            config.delay = parseInt(data.el.attr("data-delay"), 10) || 2e3;
+            config.timerMax = parseInt(data.el.attr("data-autoplay-limit"), 10);
+            var touchEvents = "mousedown" + namespace + " touchstart" + namespace;
+            if (!designer) {
+              data.el.off(touchEvents).one(touchEvents, function() {
+                stopTimer(data);
+              });
+            }
+          }
+          var arrowWidth = data.right.width();
+          config.edge = arrowWidth ? arrowWidth + 40 : 100;
+          data.config = config;
+        }
+        function isAttrTrue(value) {
+          return value === "1" || value === "true";
+        }
+        function hasFocus(data, focusIn, eventType) {
+          return function(evt) {
+            if (!focusIn) {
+              if ($.contains(data.el.get(0), evt.relatedTarget)) {
+                return;
+              }
+              data.hasFocus[eventType] = focusIn;
+              if (data.hasFocus.mouse && eventType === "keyboard" || data.hasFocus.keyboard && eventType === "mouse") {
+                return;
+              }
+            } else {
+              data.hasFocus[eventType] = focusIn;
+            }
+            if (focusIn) {
+              data.ariaLiveLabel.attr("aria-live", "polite");
+              if (data.hasTimer) {
+                stopTimer(data);
+              }
+            } else {
+              data.ariaLiveLabel.attr("aria-live", "off");
+              if (data.hasTimer) {
+                startTimer(data);
+              }
+            }
+            return;
+          };
+        }
+        function keyboardSlideButtonsFunction(data, directionFunction) {
+          return function(evt) {
+            switch (evt.keyCode) {
+              case KEY_CODES.SPACE:
+              case KEY_CODES.ENTER: {
+                directionFunction(data)();
+                evt.preventDefault();
+                return evt.stopPropagation();
+              }
+            }
+          };
+        }
+        function previousFunction(data) {
+          return function() {
+            change(data, {
+              index: data.index - 1,
+              vector: -1
+            });
+          };
+        }
+        function next(data) {
+          return function() {
+            change(data, {
+              index: data.index + 1,
+              vector: 1
+            });
+          };
+        }
+        function select(data, value) {
+          var found = null;
+          if (value === data.slides.length) {
+            init();
+            layout(data);
+          }
+          _.each(data.anchors, function(anchor, index) {
+            $(anchor.els).each(function(i, el) {
+              if ($(el).index() === value) {
+                found = index;
+              }
+            });
+          });
+          if (found != null) {
+            change(data, {
+              index: found,
               immediate: true
             });
           }
         }
-        function configure(data) {
-          var config = {};
-          config.easing = data.el.attr("data-easing") || "ease";
-          var intro = parseInt(data.el.attr("data-duration-in"), 10);
-          intro = config.intro = intro === intro ? intro : 0;
-          var outro = parseInt(data.el.attr("data-duration-out"), 10);
-          outro = config.outro = outro === outro ? outro : 0;
-          config.immediate = !intro && !outro;
-          data.config = config;
-        }
-        function getActiveTabIdx(data) {
-          var tab = data.current;
-          return Array.prototype.findIndex.call(data.links, (t) => {
-            return t.getAttribute(tabAttr) === tab;
-          }, null);
-        }
-        function linkSelect(data) {
-          return function(evt) {
-            evt.preventDefault();
-            var tab = evt.currentTarget.getAttribute(tabAttr);
-            tab && changeTab(data, {
-              tab
-            });
-          };
-        }
-        function handleLinkKeydown(data) {
-          return function(evt) {
-            var currentIdx = getActiveTabIdx(data);
-            var keyName = evt.key;
-            var keyMap = {
-              ArrowLeft: currentIdx - 1,
-              ArrowUp: currentIdx - 1,
-              ArrowRight: currentIdx + 1,
-              ArrowDown: currentIdx + 1,
-              End: data.links.length - 1,
-              Home: 0
-            };
-            if (!(keyName in keyMap))
+        function startTimer(data) {
+          stopTimer(data);
+          var config = data.config;
+          var timerMax = config.timerMax;
+          if (timerMax && data.timerCount++ > timerMax) {
+            return;
+          }
+          data.timerId = window.setTimeout(function() {
+            if (data.timerId == null || designer) {
               return;
-            evt.preventDefault();
-            var nextIdx = keyMap[keyName];
-            if (nextIdx === -1) {
-              nextIdx = data.links.length - 1;
             }
-            if (nextIdx === data.links.length) {
-              nextIdx = 0;
+            next(data)();
+            startTimer(data);
+          }, config.delay);
+        }
+        function stopTimer(data) {
+          window.clearTimeout(data.timerId);
+          data.timerId = null;
+        }
+        function handler(data) {
+          return function(evt, options) {
+            options = options || {};
+            var config = data.config;
+            if (designer && evt.type === "setting") {
+              if (options.select === "prev") {
+                return previousFunction(data)();
+              }
+              if (options.select === "next") {
+                return next(data)();
+              }
+              configure(data);
+              layout(data);
+              if (options.select == null) {
+                return;
+              }
+              select(data, options.select);
+              return;
             }
-            var tabEl = data.links[nextIdx];
-            var tab = tabEl.getAttribute(tabAttr);
-            tab && changeTab(data, {
-              tab
-            });
+            if (evt.type === "swipe") {
+              if (config.disableSwipe) {
+                return;
+              }
+              if (Webflow.env("editor")) {
+                return;
+              }
+              if (options.direction === "left") {
+                return next(data)();
+              }
+              if (options.direction === "right") {
+                return previousFunction(data)();
+              }
+              return;
+            }
+            if (data.nav.has(evt.target).length) {
+              var index = $(evt.target).index();
+              if (evt.type === "click") {
+                change(data, {
+                  index
+                });
+              }
+              if (evt.type === "keydown") {
+                switch (evt.keyCode) {
+                  case KEY_CODES.ENTER:
+                  case KEY_CODES.SPACE: {
+                    change(data, {
+                      index
+                    });
+                    evt.preventDefault();
+                    break;
+                  }
+                  case KEY_CODES.ARROW_LEFT:
+                  case KEY_CODES.ARROW_UP: {
+                    focusDot(data.nav, Math.max(index - 1, 0));
+                    evt.preventDefault();
+                    break;
+                  }
+                  case KEY_CODES.ARROW_RIGHT:
+                  case KEY_CODES.ARROW_DOWN: {
+                    focusDot(data.nav, Math.min(index + 1, data.pages));
+                    evt.preventDefault();
+                    break;
+                  }
+                  case KEY_CODES.HOME: {
+                    focusDot(data.nav, 0);
+                    evt.preventDefault();
+                    break;
+                  }
+                  case KEY_CODES.END: {
+                    focusDot(data.nav, data.pages);
+                    evt.preventDefault();
+                    break;
+                  }
+                  default: {
+                    return;
+                  }
+                }
+              }
+            }
           };
         }
-        function changeTab(data, options) {
+        function focusDot($nav, index) {
+          var $active = $nav.children().eq(index).focus();
+          $nav.children().not($active);
+        }
+        function change(data, options) {
           options = options || {};
           var config = data.config;
+          var anchors = data.anchors;
+          data.previous = data.index;
+          var index = options.index;
+          var shift = {};
+          if (index < 0) {
+            index = anchors.length - 1;
+            if (config.infinite) {
+              shift.x = -data.endX;
+              shift.from = 0;
+              shift.to = anchors[0].width;
+            }
+          } else if (index >= anchors.length) {
+            index = 0;
+            if (config.infinite) {
+              shift.x = anchors[anchors.length - 1].width;
+              shift.from = -anchors[anchors.length - 1].x;
+              shift.to = shift.from - shift.x;
+            }
+          }
+          data.index = index;
+          var $active = data.nav.children().eq(index).addClass("w-active").attr("aria-pressed", "true").attr("tabindex", "0");
+          data.nav.children().not($active).removeClass("w-active").attr("aria-pressed", "false").attr("tabindex", "-1");
+          if (config.hideArrows) {
+            data.index === anchors.length - 1 ? data.right.hide() : data.right.show();
+            data.index === 0 ? data.left.hide() : data.left.show();
+          }
+          var lastOffsetX = data.offsetX || 0;
+          var offsetX = data.offsetX = -anchors[data.index].x;
+          var resetConfig = {
+            x: offsetX,
+            opacity: 1,
+            visibility: ""
+          };
+          var targets = $(anchors[data.index].els);
+          var prevTargs = $(anchors[data.previous] && anchors[data.previous].els);
+          var others = data.slides.not(targets);
+          var animation = config.animation;
           var easing = config.easing;
-          var tab = options.tab;
-          if (tab === data.current) {
+          var duration = Math.round(config.duration);
+          var vector = options.vector || (data.index > data.previous ? 1 : -1);
+          var fadeRule = "opacity " + duration + "ms " + easing;
+          var slideRule = "transform " + duration + "ms " + easing;
+          targets.find(FOCUSABLE_SELECTOR).removeAttr("tabindex");
+          targets.removeAttr("aria-hidden");
+          targets.find("*").removeAttr("aria-hidden");
+          others.find(FOCUSABLE_SELECTOR).attr("tabindex", "-1");
+          others.attr("aria-hidden", "true");
+          others.find("*").attr("aria-hidden", "true");
+          if (!designer) {
+            targets.each(ix.intro);
+            others.each(ix.outro);
+          }
+          if (options.immediate && !inRedraw) {
+            tram(targets).set(resetConfig);
+            resetOthers();
             return;
           }
-          data.current = tab;
-          var currentTab;
-          data.links.each(function(i, el) {
-            var $el = $(el);
-            if (options.immediate || config.immediate) {
-              var pane = data.panes[i];
-              if (!el.id) {
-                el.id = data.tabIdentifier + "-" + i;
-              }
-              if (!pane.id) {
-                pane.id = data.paneIdentifier + "-" + i;
-              }
-              el.href = "#" + pane.id;
-              el.setAttribute("role", "tab");
-              el.setAttribute("aria-controls", pane.id);
-              el.setAttribute("aria-selected", "false");
-              pane.setAttribute("role", "tabpanel");
-              pane.setAttribute("aria-labelledby", el.id);
-            }
-            if (el.getAttribute(tabAttr) === tab) {
-              currentTab = el;
-              $el.addClass(linkCurrent).removeAttr("tabindex").attr({
-                "aria-selected": "true"
-              }).each(ix.intro);
-            } else if ($el.hasClass(linkCurrent)) {
-              $el.removeClass(linkCurrent).attr({
-                tabindex: "-1",
-                "aria-selected": "false"
-              }).each(ix.outro);
-            }
-          });
-          var targets = [];
-          var previous = [];
-          data.panes.each(function(i, el) {
-            var $el = $(el);
-            if (el.getAttribute(tabAttr) === tab) {
-              targets.push(el);
-            } else if ($el.hasClass(tabActive)) {
-              previous.push(el);
-            }
-          });
-          var $targets = $(targets);
-          var $previous = $(previous);
-          if (options.immediate || config.immediate) {
-            $targets.addClass(tabActive).each(ix.intro);
-            $previous.removeClass(tabActive);
-            if (!inRedraw) {
-              Webflow.redraw.up();
-            }
+          if (data.index === data.previous) {
             return;
-          } else {
-            var x = window.scrollX;
-            var y = window.scrollY;
-            currentTab.focus();
-            window.scrollTo(x, y);
           }
-          if ($previous.length && config.outro) {
-            $previous.each(ix.outro);
-            tram($previous).add("opacity " + config.outro + "ms " + easing, {
-              fallback: safari
-            }).start({
+          if (!designer) {
+            data.ariaLiveLabel.text(`Slide ${index + 1} of ${anchors.length}.`);
+          }
+          if (animation === "cross") {
+            var reduced = Math.round(duration - duration * config.crossOver);
+            var wait = Math.round(duration - reduced);
+            fadeRule = "opacity " + reduced + "ms " + easing;
+            tram(prevTargs).set({
+              visibility: ""
+            }).add(fadeRule).start({
               opacity: 0
-            }).then(() => fadeIn(config, $previous, $targets));
-          } else {
-            fadeIn(config, $previous, $targets);
-          }
-        }
-        function fadeIn(config, $previous, $targets) {
-          $previous.removeClass(tabActive).css({
-            opacity: "",
-            transition: "",
-            transform: "",
-            width: "",
-            height: ""
-          });
-          $targets.addClass(tabActive).each(ix.intro);
-          Webflow.redraw.up();
-          if (!config.intro) {
-            return tram($targets).set({
+            });
+            tram(targets).set({
+              visibility: "",
+              x: offsetX,
+              opacity: 0,
+              zIndex: data.depth++
+            }).add(fadeRule).wait(wait).then({
               opacity: 1
+            }).then(resetOthers);
+            return;
+          }
+          if (animation === "fade") {
+            tram(prevTargs).set({
+              visibility: ""
+            }).stop();
+            tram(targets).set({
+              visibility: "",
+              x: offsetX,
+              opacity: 0,
+              zIndex: data.depth++
+            }).add(fadeRule).start({
+              opacity: 1
+            }).then(resetOthers);
+            return;
+          }
+          if (animation === "over") {
+            resetConfig = {
+              x: data.endX
+            };
+            tram(prevTargs).set({
+              visibility: ""
+            }).stop();
+            tram(targets).set({
+              visibility: "",
+              zIndex: data.depth++,
+              x: offsetX + anchors[data.index].width * vector
+            }).add(slideRule).start({
+              x: offsetX
+            }).then(resetOthers);
+            return;
+          }
+          if (config.infinite && shift.x) {
+            tram(data.slides.not(prevTargs)).set({
+              visibility: "",
+              x: shift.x
+            }).add(slideRule).start({
+              x: offsetX
+            });
+            tram(prevTargs).set({
+              visibility: "",
+              x: shift.from
+            }).add(slideRule).start({
+              x: shift.to
+            });
+            data.shifted = prevTargs;
+          } else {
+            if (config.infinite && data.shifted) {
+              tram(data.shifted).set({
+                visibility: "",
+                x: lastOffsetX
+              });
+              data.shifted = null;
+            }
+            tram(data.slides).set({
+              visibility: ""
+            }).add(slideRule).start({
+              x: offsetX
             });
           }
-          tram($targets).set({
-            opacity: 0
-          }).redraw().add("opacity " + config.intro + "ms " + config.easing, {
-            fallback: safari
-          }).start({
-            opacity: 1
+          function resetOthers() {
+            targets = $(anchors[data.index].els);
+            others = data.slides.not(targets);
+            if (animation !== "slide") {
+              resetConfig.visibility = "hidden";
+            }
+            tram(others).set(resetConfig);
+          }
+        }
+        function render(i, el) {
+          var data = $.data(el, namespace);
+          if (!data) {
+            return;
+          }
+          if (maskChanged(data)) {
+            return layout(data);
+          }
+          if (designer && slidesChanged(data)) {
+            layout(data);
+          }
+        }
+        function layout(data) {
+          var pages = 1;
+          var offset = 0;
+          var anchor = 0;
+          var width = 0;
+          var maskWidth = data.maskWidth;
+          var threshold = maskWidth - data.config.edge;
+          if (threshold < 0) {
+            threshold = 0;
+          }
+          data.anchors = [{
+            els: [],
+            x: 0,
+            width: 0
+          }];
+          data.slides.each(function(i, el) {
+            if (anchor - offset > threshold) {
+              pages++;
+              offset += maskWidth;
+              data.anchors[pages - 1] = {
+                els: [],
+                x: anchor,
+                width: 0
+              };
+            }
+            width = $(el).outerWidth(true);
+            anchor += width;
+            data.anchors[pages - 1].width += width;
+            data.anchors[pages - 1].els.push(el);
+            var ariaLabel = i + 1 + " of " + data.slides.length;
+            $(el).attr("aria-label", ariaLabel);
+            $(el).attr("role", "group");
           });
+          data.endX = anchor;
+          if (designer) {
+            data.pages = null;
+          }
+          if (data.nav.length && data.pages !== pages) {
+            data.pages = pages;
+            buildNav(data);
+          }
+          var index = data.index;
+          if (index >= pages) {
+            index = pages - 1;
+          }
+          change(data, {
+            immediate: true,
+            index
+          });
+        }
+        function buildNav(data) {
+          var dots = [];
+          var $dot;
+          var spacing = data.el.attr("data-nav-spacing");
+          if (spacing) {
+            spacing = parseFloat(spacing) + "px";
+          }
+          for (var i = 0, len = data.pages; i < len; i++) {
+            $dot = $(dot);
+            $dot.attr("aria-label", "Show slide " + (i + 1) + " of " + len).attr("aria-pressed", "false").attr("role", "button").attr("tabindex", "-1");
+            if (data.nav.hasClass("w-num")) {
+              $dot.text(i + 1);
+            }
+            if (spacing != null) {
+              $dot.css({
+                "margin-left": spacing,
+                "margin-right": spacing
+              });
+            }
+            dots.push($dot);
+          }
+          data.nav.empty().append(dots);
+        }
+        function maskChanged(data) {
+          var maskWidth = data.mask.width();
+          if (data.maskWidth !== maskWidth) {
+            data.maskWidth = maskWidth;
+            return true;
+          }
+          return false;
+        }
+        function slidesChanged(data) {
+          var slidesWidth = 0;
+          data.slides.each(function(i, el) {
+            slidesWidth += $(el).outerWidth(true);
+          });
+          if (data.slidesWidth !== slidesWidth) {
+            data.slidesWidth = slidesWidth;
+            return true;
+          }
+          return false;
         }
         return api;
       });
@@ -12916,7 +13508,7 @@
   require_webflow_scroll();
   require_webflow_touch();
   require_webflow_navbar();
-  require_webflow_tabs();
+  require_webflow_slider();
 })();
 /*!
  * tram.js v0.8.2-global
@@ -12926,20 +13518,6 @@
  */
 /*!
  * Webflow._ (aka) Underscore.js 1.6.0 (custom build)
- * _.each
- * _.map
- * _.find
- * _.filter
- * _.any
- * _.contains
- * _.delay
- * _.defer
- * _.throttle (webflow)
- * _.debounce
- * _.keys
- * _.has
- * _.now
- * _.template (webflow: upgraded to 1.13.6)
  *
  * http://underscorejs.org
  * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -12963,5 +13541,5 @@ timm/lib/timm.js:
  * Webflow: Interactions 2.0: Init
  */
 Webflow.require('ix2').init(
-{"events":{"e-2":{"id":"e-2","name":"","animationType":"custom","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a","affectedElements":{},"playInReverse":false,"autoStopEventId":"e"}},"mediaQueries":["main"],"target":{"selector":".walsh-button-circle","originalId":"6345ab75e9f6365601b223ac|67294640-98ee-618a-f2f3-233661fb7263","appliesTo":"CLASS"},"targets":[{"selector":".walsh-button-circle","originalId":"6345ab75e9f6365601b223ac|67294640-98ee-618a-f2f3-233661fb7263","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1656968267609},"e-3":{"id":"e-3","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-2","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-4"}},"mediaQueries":["main"],"target":{"selector":".walsh-link-block-orange-2","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"},"targets":[{"selector":".walsh-link-block-orange-2","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1666312770566},"e-4":{"id":"e-4","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-3","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-3"}},"mediaQueries":["main"],"target":{"selector":".walsh-link-block-orange-2","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"},"targets":[{"selector":".walsh-link-block-orange-2","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1666312770566}},"actionLists":{"a":{"id":"a","title":"Button Circle - Hover Out","actionItemGroups":[{"actionItems":[{"id":"a-n","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"swingTo","duration":500,"target":{},"zValue":0,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}},{"id":"a-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"inOutCirc","duration":500,"target":{},"xValue":0,"xUnit":"rem","yUnit":"PX","zUnit":"PX"}},{"id":"a-n-3","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"swingTo","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-circle","selectorGuids":["e41ea4bb-99c9-195e-9e77-e5005f4fa2ca"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-n-4","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"swingTo","duration":500,"target":{},"xValue":1,"yValue":1,"locked":true}},{"id":"a-n-5","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":700,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-fill","selectorGuids":["e41ea4bb-99c9-195e-9e77-e5005f4fa2c8"]},"xValue":0.1,"yValue":0.1,"locked":true}},{"id":"a-n-6","actionTypeId":"STYLE_OPACITY","config":{"delay":300,"easing":"","duration":150,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-fill","selectorGuids":["e41ea4bb-99c9-195e-9e77-e5005f4fa2c8"]},"value":0,"unit":""}}]}],"useFirstGroupAsInitialState":false,"createdOn":1656968270180},"a-2":{"id":"a-2","title":"Button Default - Hover On","actionItemGroups":[{"actionItems":[{"id":"a-2-n","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"inOutExpo","duration":1250,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf7"]},"xValue":3.8,"yValue":3.8,"locked":true}},{"id":"a-2-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"inOutExpo","duration":1250,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf7"]},"xValue":180,"yValue":80,"xUnit":"%","yUnit":"%","zUnit":"PX"}},{"id":"a-2-n-3","actionTypeId":"TRANSFORM_MOVE","config":{"delay":300,"easing":"inOutExpo","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".walsh-icon-arrow-flip-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf2"]},"yValue":-100,"xUnit":"PX","yUnit":"%","zUnit":"PX"}},{"id":"a-2-n-4","actionTypeId":"STYLE_TEXT_COLOR","config":{"delay":300,"easing":"","duration":250,"target":{"useEventTarget":"CHILDREN","selector":".walsh-label-button-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf4"]},"globalSwatchId":"","rValue":255,"bValue":255,"gValue":255,"aValue":1}}]}],"useFirstGroupAsInitialState":false,"createdOn":1661474026364},"a-3":{"id":"a-3","title":"Button Default - Hover Out","actionItemGroups":[{"actionItems":[{"id":"a-3-n","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":600,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf7"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-3-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuart","duration":600,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf7"]},"xValue":0,"yValue":0,"xUnit":"%","yUnit":"%","zUnit":"PX"}},{"id":"a-3-n-3","actionTypeId":"STYLE_TEXT_COLOR","config":{"delay":250,"easing":"outQuart","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".walsh-label-button-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf4"]},"globalSwatchId":"","rValue":255,"bValue":255,"gValue":255,"aValue":1}},{"id":"a-3-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":300,"easing":"outQuart","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".walsh-icon-arrow-flip-2","selectorGuids":["a4ff49b3-5605-86eb-659d-54a49382dbf2"]},"yValue":0,"xUnit":"PX","yUnit":"%","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1661474026364}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}
+{"events":{"e":{"id":"e","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-184"}},"mediaQueries":["main"],"target":{"selector":".walsh-link-block-orange","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"},"targets":[{"selector":".walsh-link-block-orange","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1666312770566},"e-2":{"id":"e-2","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-2","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-189"}},"mediaQueries":["main"],"target":{"selector":".walsh-link-block-orange","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"},"targets":[{"selector":".walsh-link-block-orange","originalId":"634d8b6e827ec3e1f1cd8bca|7abca713-aeae-4ee9-429d-a2804bd42882","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1666312770566},"e-4":{"id":"e-4","name":"","animationType":"custom","eventTypeId":"SCROLLING_IN_VIEW","action":{"id":"","actionTypeId":"GENERAL_CONTINUOUS_ACTION","config":{"actionListId":"a-9","affectedElements":{},"duration":0}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eb9e","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eb9e","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":[{"continuousParameterGroupId":"a-9-p","smoothing":100,"startsEntering":false,"addStartOffset":false,"addOffsetValue":50,"startsExiting":true,"addEndOffset":false,"endOffsetValue":50}],"createdOn":1706377007570},"e-5":{"id":"e-5","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-10","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-182"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe2c","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe2c","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1657347797341},"e-6":{"id":"e-6","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-13","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-188"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe2c","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe2c","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1657347797341},"e-7":{"id":"e-7","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-10","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-60"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe3a","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe3a","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1657347798535},"e-8":{"id":"e-8","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-13","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-59"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe3a","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe3a","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1657347798535},"e-9":{"id":"e-9","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-10","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-62"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe48","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe48","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1657347800259},"e-10":{"id":"e-10","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-13","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-61"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe48","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe48","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1657347800259},"e-27":{"id":"e-27","name":"","animationType":"custom","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-20","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-184"}},"mediaQueries":["main"],"target":{"selector":".walsh-link-wrapper","originalId":"6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1","appliesTo":"CLASS"},"targets":[{"selector":".walsh-link-wrapper","originalId":"6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1625015493372},"e-28":{"id":"e-28","name":"","animationType":"custom","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-21","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-189"}},"mediaQueries":["main"],"target":{"selector":".walsh-link-wrapper","originalId":"6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1","appliesTo":"CLASS"},"targets":[{"selector":".walsh-link-wrapper","originalId":"6345ab75e9f63639d4b2246a|fbfbaf89-19b5-45bd-cef3-19f2e7dd79f1","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1625015493377},"e-56":{"id":"e-56","name":"","animationType":"custom","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-38","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-189"}},"mediaQueries":["main"],"target":{"selector":".walsh-button-circle","originalId":"6345ab75e9f6365601b223ac|67294640-98ee-618a-f2f3-233661fb7263","appliesTo":"CLASS"},"targets":[{"selector":".walsh-button-circle","originalId":"6345ab75e9f6365601b223ac|67294640-98ee-618a-f2f3-233661fb7263","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1656968267609},"e-57":{"id":"e-57","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-33","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-274"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49935","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49935","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1644891390092},"e-58":{"id":"e-58","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-34","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-271"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49935","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49935","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1644891390092},"e-59":{"id":"e-59","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SHRINK_EFFECT","instant":false,"config":{"actionListId":"shrinkIn","autoStopEventId":"e-193"}},"mediaQueries":["main"],"target":{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49941","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49941","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":100,"direction":null,"effectIn":true},"createdOn":1644856812164},"e-61":{"id":"e-61","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-39","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-183"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49949","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49949","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1643169252273},"e-62":{"id":"e-62","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-40","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-351"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49949","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|a401f9b9-a6f7-57e3-4cf6-f0de5ba49949","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1643169252273},"e-70":{"id":"e-70","name":"","animationType":"custom","eventTypeId":"PAGE_START","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-44","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-71"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be","appliesTo":"PAGE","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be","appliesTo":"PAGE","styleBlockIds":[]}],"config":{"loop":true,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1707778186713},"e-71":{"id":"e-71","name":"","animationType":"custom","eventTypeId":"PAGE_FINISH","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-45","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-70"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be","appliesTo":"PAGE","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be","appliesTo":"PAGE","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1707778186714},"e-108":{"id":"e-108","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-109"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe1d","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|521137e5-a19d-26d9-45c7-57ae5d57fe1d","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1709737760526},"e-122":{"id":"e-122","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-123"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|e5a1b73b-caef-5ba1-1edf-e4be6c5a5517","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|e5a1b73b-caef-5ba1-1edf-e4be6c5a5517","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1709737816933},"e-124":{"id":"e-124","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-15","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-125"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eb97","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eb97","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1709737844901},"e-128":{"id":"e-128","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-15","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-129"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eba0","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eba0","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1709743730336},"e-129":{"id":"e-129","name":"","animationType":"custom","eventTypeId":"SCROLL_OUT_OF_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-128"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eba0","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|182a16b7-e5d7-842d-8093-996db6d2eba0","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1709743730338},"e-132":{"id":"e-132","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-28","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-176"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|4d6e70ef-746c-0536-ed01-cb555d4dbcf2","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|4d6e70ef-746c-0536-ed01-cb555d4dbcf2","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710602079626},"e-134":{"id":"e-134","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-135"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|4d6e70ef-746c-0536-ed01-cb555d4dbcf2","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|4d6e70ef-746c-0536-ed01-cb555d4dbcf2","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710602095641},"e-136":{"id":"e-136","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-137"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|92d29229-d1fb-1bc1-5570-a627cb2101fe","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|92d29229-d1fb-1bc1-5570-a627cb2101fe","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710602738986},"e-138":{"id":"e-138","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-139"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|28c48eb4-c59c-5dae-5cd8-7a7480e17926","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|28c48eb4-c59c-5dae-5cd8-7a7480e17926","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710602750641},"e-140":{"id":"e-140","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-141"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|517f7902-957d-76f8-84cf-a0e43eba242e","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|517f7902-957d-76f8-84cf-a0e43eba242e","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710602763565},"e-142":{"id":"e-142","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-143"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|8275b1e0-40ae-e3d5-3f12-542f41c23c91","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|8275b1e0-40ae-e3d5-3f12-542f41c23c91","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710602772883},"e-152":{"id":"e-152","name":"","animationType":"custom","eventTypeId":"SLIDER_ACTIVE","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-55","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-153"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".gallery-slide","originalId":"65f0cba75b25f869542fc4be|bd726057-548f-0675-840e-605f0d47ed7a","appliesTo":"CLASS"},"targets":[{"selector":".gallery-slide","originalId":"65f0cba75b25f869542fc4be|bd726057-548f-0675-840e-605f0d47ed7a","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1627026102282},"e-153":{"id":"e-153","name":"","animationType":"custom","eventTypeId":"SLIDER_INACTIVE","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-56","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-152"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".gallery-slide","originalId":"65f0cba75b25f869542fc4be|bd726057-548f-0675-840e-605f0d47ed7a","appliesTo":"CLASS"},"targets":[{"selector":".gallery-slide","originalId":"65f0cba75b25f869542fc4be|bd726057-548f-0675-840e-605f0d47ed7a","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1627026102283},"e-154":{"id":"e-154","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-160"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a08a","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a08a","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1664122924735},"e-156":{"id":"e-156","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GROW_EFFECT","instant":false,"config":{"actionListId":"growIn","autoStopEventId":"e-155"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a082","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a082","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":null,"effectIn":true},"createdOn":1664122983452},"e-157":{"id":"e-157","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-163"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a086","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a086","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":400,"direction":"LEFT","effectIn":true},"createdOn":1664122895777},"e-158":{"id":"e-158","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-161"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a084","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a084","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1664122881683},"e-162":{"id":"e-162","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-159"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a08c","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|edbafef8-d8e7-eceb-d663-d47d1821a08c","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1664122959373},"e-164":{"id":"e-164","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-168"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da009","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da009","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1664123118596},"e-167":{"id":"e-167","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-166"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da027","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da027","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"BOTTOM","effectIn":true},"createdOn":1664123181979},"e-170":{"id":"e-170","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-169"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da00b","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da00b","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":400,"direction":"LEFT","effectIn":true},"createdOn":1664123128870},"e-171":{"id":"e-171","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-165"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da011","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da011","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"BOTTOM","effectIn":true},"createdOn":1664123139360},"e-172":{"id":"e-172","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-173"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da01c","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|01e328f0-89bf-3a47-e32f-00f8e99da01c","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"BOTTOM","effectIn":true},"createdOn":1664123152097},"e-174":{"id":"e-174","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-175"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|5d8e02cd-d194-44b4-6b7d-50cd5e146f44","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|5d8e02cd-d194-44b4-6b7d-50cd5e146f44","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710613857048},"e-176":{"id":"e-176","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-245"}},"mediaQueries":["main","medium"],"target":{"selector":".cf-toggle-row","originalId":"6313d2e45ea282a51fb9746f|25ae67d3-7887-27a1-3864-aa883551eb6e","appliesTo":"CLASS"},"targets":[{"selector":".cf-toggle-row","originalId":"6313d2e45ea282a51fb9746f|25ae67d3-7887-27a1-3864-aa883551eb6e","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":10,"scrollOffsetUnit":"%","delay":0,"direction":"BOTTOM","effectIn":true},"createdOn":1644770141969},"e-178":{"id":"e-178","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-179"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|f2493282-84f9-8760-2156-29ee1058a842","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|f2493282-84f9-8760-2156-29ee1058a842","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710620958908},"e-180":{"id":"e-180","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-181"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|aa46fe0b-333a-d353-aad9-6befbff07ed9","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|aa46fe0b-333a-d353-aad9-6befbff07ed9","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1664123250693},"e-192":{"id":"e-192","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-193"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|e8fdab82-bd90-c5f8-db04-a09d07cdd28a","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|e8fdab82-bd90-c5f8-db04-a09d07cdd28a","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1664122735574},"e-194":{"id":"e-194","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-195"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|e8fdab82-bd90-c5f8-db04-a09d07cdd28c","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|e8fdab82-bd90-c5f8-db04-a09d07cdd28c","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":400,"direction":"LEFT","effectIn":true},"createdOn":1664122754609},"e-196":{"id":"e-196","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-197"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|e8fdab82-bd90-c5f8-db04-a09d07cdd293","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|e8fdab82-bd90-c5f8-db04-a09d07cdd293","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1664122781153},"e-204":{"id":"e-204","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-205"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|e209d5ca-7f30-471a-2850-4b87269380ab","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|e209d5ca-7f30-471a-2850-4b87269380ab","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1710626154508},"e-206":{"id":"e-206","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-207"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef0289","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef0289","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1710626281105},"e-208":{"id":"e-208","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-209"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef028b","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef028b","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":400,"direction":"LEFT","effectIn":true},"createdOn":1710626281105},"e-210":{"id":"e-210","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-211"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef028f","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef028f","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1710626281105},"e-212":{"id":"e-212","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-213"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef0291","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|f00cd644-0a51-546c-0d19-d10ad1ef0291","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1710626281105},"e-214":{"id":"e-214","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-215"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b6c","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b6c","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1710626476956},"e-216":{"id":"e-216","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-217"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b6e","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b6e","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":400,"direction":"LEFT","effectIn":true},"createdOn":1710626476956},"e-218":{"id":"e-218","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-219"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b72","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b72","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1710626476956},"e-220":{"id":"e-220","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-221"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b74","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|b933ad2c-6c50-8f8c-d99e-03ef67587b74","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1710626476956},"e-222":{"id":"e-222","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-223"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e48aa056acdf91d1ddf7|5f1eebc6-cac8-b026-ff68-12268237cd37","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e48aa056acdf91d1ddf7|5f1eebc6-cac8-b026-ff68-12268237cd37","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1710627821333},"e-224":{"id":"e-224","name":"","animationType":"custom","eventTypeId":"MOUSE_CLICK","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-63","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-348"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".cf-faq-plus-card","originalId":"61e333c2f1402e6119a593d1|6ef7692a-d86a-9470-b55a-b697071d639c","appliesTo":"CLASS"},"targets":[{"selector":".cf-faq-plus-card","originalId":"61e333c2f1402e6119a593d1|6ef7692a-d86a-9470-b55a-b697071d639c","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1638549595945},"e-225":{"id":"e-225","name":"","animationType":"custom","eventTypeId":"MOUSE_SECOND_CLICK","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-64","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-402"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".cf-faq-plus-card","originalId":"61e333c2f1402e6119a593d1|6ef7692a-d86a-9470-b55a-b697071d639c","appliesTo":"CLASS"},"targets":[{"selector":".cf-faq-plus-card","originalId":"61e333c2f1402e6119a593d1|6ef7692a-d86a-9470-b55a-b697071d639c","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1638549595945},"e-228":{"id":"e-228","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-229"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|056056f2-93e7-bec1-3c0d-2cf9c49f41ff","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|056056f2-93e7-bec1-3c0d-2cf9c49f41ff","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1710628036513},"e-230":{"id":"e-230","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-231"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c74","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c74","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1711210257818},"e-232":{"id":"e-232","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-233"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c76","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c76","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":400,"direction":"LEFT","effectIn":true},"createdOn":1711210257818},"e-234":{"id":"e-234","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-235"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c7d","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c7d","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"BOTTOM","effectIn":true},"createdOn":1711210257818},"e-236":{"id":"e-236","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-237"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c8b","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c8b","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"BOTTOM","effectIn":true},"createdOn":1711210257818},"e-238":{"id":"e-238","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInBottom","autoStopEventId":"e-239"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c99","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65fefecab22a2b364a35c792|713f2b60-d4e8-741e-090e-600183e94c99","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"BOTTOM","effectIn":true},"createdOn":1711210257818},"e-240":{"id":"e-240","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-241"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65fefecab22a2b364a35c792|3b18cc18-6054-e78f-c256-67964623edf1","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65fefecab22a2b364a35c792|3b18cc18-6054-e78f-c256-67964623edf1","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1711210357289},"e-252":{"id":"e-252","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-253"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65fefecab22a2b364a35c792|83bee156-70c7-12b4-1a8c-eb2a685c8092","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65fefecab22a2b364a35c792|83bee156-70c7-12b4-1a8c-eb2a685c8092","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1711210408112},"e-254":{"id":"e-254","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-255"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|71a67069-71ea-e0c8-a190-fddfe5378d3f","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|71a67069-71ea-e0c8-a190-fddfe5378d3f","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1712059543046},"e-256":{"id":"e-256","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-257"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|c2df5163-3870-a2e7-0bd3-d6f2bc97d248","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|c2df5163-3870-a2e7-0bd3-d6f2bc97d248","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1712059568840},"e-258":{"id":"e-258","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-259"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|4ff79990-e49a-d2d1-e8c2-480e2e5c686a","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|4ff79990-e49a-d2d1-e8c2-480e2e5c686a","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1712059666303},"e-260":{"id":"e-260","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-261"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f855","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f855","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1712059736935},"e-262":{"id":"e-262","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-263"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f857","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f857","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":400,"direction":"LEFT","effectIn":true},"createdOn":1712059736935},"e-264":{"id":"e-264","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-265"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f859","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f859","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1712059736935},"e-266":{"id":"e-266","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-267"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f85b","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f85b","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":200,"direction":"LEFT","effectIn":true},"createdOn":1712059736935},"e-268":{"id":"e-268","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-269"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f85d","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f5e537102b1cbeb6c44a57|4ceb35b1-f758-4769-351d-4b2e7879f85d","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1712059736935},"e-270":{"id":"e-270","name":"","animationType":"custom","eventTypeId":"MOUSE_CLICK","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-65","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-271"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|a89e9d38-defc-c6ac-a9a3-4bd804c111a6","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|a89e9d38-defc-c6ac-a9a3-4bd804c111a6","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1712271747882},"e-272":{"id":"e-272","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInLeft","autoStopEventId":"e-273"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|c01f0419-f2a2-97f2-c4d4-f23cd62de7ad","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|c01f0419-f2a2-97f2-c4d4-f23cd62de7ad","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":600,"direction":"LEFT","effectIn":true},"createdOn":1712271860466},"e-274":{"id":"e-274","name":"","animationType":"custom","eventTypeId":"MOUSE_CLICK","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-65","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-275"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|c01f0419-f2a2-97f2-c4d4-f23cd62de7ad","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|c01f0419-f2a2-97f2-c4d4-f23cd62de7ad","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1712271896438},"e-276":{"id":"e-276","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-66","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-277"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"65f0cba75b25f869542fc4be|8275b1e0-40ae-e3d5-3f12-542f41c23c91","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"65f0cba75b25f869542fc4be|8275b1e0-40ae-e3d5-3f12-542f41c23c91","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1712272117434},"e-278":{"id":"e-278","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-279"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"660f34950ea84dc701c05366|49de68ca-1169-ad5c-4d68-05e9e5ac55cd","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"660f34950ea84dc701c05366|49de68ca-1169-ad5c-4d68-05e9e5ac55cd","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1712272633323}},"actionLists":{"a":{"id":"a","title":"Button Default - Hover On","actionItemGroups":[{"actionItems":[{"id":"a-n","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"inOutExpo","duration":1250,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d075"]},"xValue":3.8,"yValue":3.8,"locked":true}},{"id":"a-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"inOutExpo","duration":1250,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d075"]},"xValue":180,"yValue":80,"xUnit":"%","yUnit":"%","zUnit":"PX"}},{"id":"a-n-3","actionTypeId":"TRANSFORM_MOVE","config":{"delay":300,"easing":"inOutExpo","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".walsh-icon-arrow-flip","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d076"]},"yValue":-100,"xUnit":"PX","yUnit":"%","zUnit":"PX"}},{"id":"a-n-4","actionTypeId":"STYLE_TEXT_COLOR","config":{"delay":300,"easing":"","duration":250,"target":{"useEventTarget":"CHILDREN","selector":".walsh-label-button","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d078"]},"globalSwatchId":"","rValue":255,"bValue":255,"gValue":255,"aValue":1}}]}],"useFirstGroupAsInitialState":false,"createdOn":1661474026364},"a-2":{"id":"a-2","title":"Button Default - Hover Out","actionItemGroups":[{"actionItems":[{"id":"a-2-n","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":600,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d075"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-2-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuart","duration":600,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-hover-fill","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d075"]},"xValue":0,"yValue":0,"xUnit":"%","yUnit":"%","zUnit":"PX"}},{"id":"a-2-n-3","actionTypeId":"STYLE_TEXT_COLOR","config":{"delay":250,"easing":"outQuart","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".walsh-label-button","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d078"]},"globalSwatchId":"","rValue":255,"bValue":255,"gValue":255,"aValue":1}},{"id":"a-2-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":300,"easing":"outQuart","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".walsh-icon-arrow-flip","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d076"]},"yValue":0,"xUnit":"PX","yUnit":"%","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1661474026364},"a-9":{"id":"a-9","title":"New Scroll Animation","continuousParameterGroups":[{"id":"a-9-p","type":"SCROLL_PROGRESS","parameterLabel":"Scroll","continuousActionGroups":[{"keyframe":0,"actionItems":[{"id":"a-9-n-7","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"","duration":500,"target":{"id":"65f0cba75b25f869542fc4be|002b47ad-eb32-25c2-ee28-bed854308921"},"globalSwatchId":"","rValue":0,"bValue":0,"gValue":0,"aValue":0}}]},{"keyframe":100,"actionItems":[{"id":"a-9-n-6","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"","duration":500,"target":{"id":"65f0cba75b25f869542fc4be|002b47ad-eb32-25c2-ee28-bed854308921"},"globalSwatchId":"","rValue":0,"bValue":0,"gValue":0,"aValue":1}}]}]}],"createdOn":1706376694487},"a-10":{"id":"a-10","title":"Button (arrow right) -> HOVER IN 2","actionItemGroups":[{"actionItems":[{"id":"a-10-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"ease","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".uui-button-icon-2","selectorGuids":["aea28f59-de9b-7d08-8d78-47887b2d7b7f"]},"xValue":0.25,"xUnit":"rem","yUnit":"PX","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1645232367525},"a-13":{"id":"a-13","title":"Button (arrow right) -> HOVER OUT 2","actionItemGroups":[{"actionItems":[{"id":"a-13-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"ease","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".uui-button-icon-2","selectorGuids":["aea28f59-de9b-7d08-8d78-47887b2d7b7f"]},"xValue":0,"xUnit":"rem","yUnit":"PX","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1645232367525},"a-20":{"id":"a-20","title":"Button CTA Arrow - Hover On","actionItemGroups":[{"actionItems":[{"id":"a-20-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuint","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".walsh-icon-arrow","selectorGuids":["b20afab5-d6e6-a44b-5880-760d1b0430c5"]},"xValue":6,"xUnit":"px","yUnit":"PX","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1625015496555},"a-21":{"id":"a-21","title":"Button CTA Arrow - Hover Out","actionItemGroups":[{"actionItems":[{"id":"a-21-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuint","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".walsh-icon-arrow","selectorGuids":["b20afab5-d6e6-a44b-5880-760d1b0430c5"]},"xValue":0,"xUnit":"px","yUnit":"PX","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1625015496555},"a-38":{"id":"a-38","title":"Button Circle - Hover Out","actionItemGroups":[{"actionItems":[{"id":"a-38-n","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"swingTo","duration":500,"target":{},"zValue":0,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}},{"id":"a-38-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"inOutCirc","duration":500,"target":{},"xValue":0,"xUnit":"rem","yUnit":"PX","zUnit":"PX"}},{"id":"a-38-n-3","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"swingTo","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-circle","selectorGuids":["dd4c7779-ffe0-86c5-3fbc-9b3e56e0d3dd"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-38-n-4","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"swingTo","duration":500,"target":{},"xValue":1,"yValue":1,"locked":true}},{"id":"a-38-n-5","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":700,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-fill","selectorGuids":["dd4c7779-ffe0-86c5-3fbc-9b3e56e0d3db"]},"xValue":0.1,"yValue":0.1,"locked":true}},{"id":"a-38-n-6","actionTypeId":"STYLE_OPACITY","config":{"delay":300,"easing":"","duration":150,"target":{"useEventTarget":"CHILDREN","selector":".walsh-button-fill","selectorGuids":["dd4c7779-ffe0-86c5-3fbc-9b3e56e0d3db"]},"value":0,"unit":""}}]}],"useFirstGroupAsInitialState":false,"createdOn":1656968270180},"a-33":{"id":"a-33","title":"Call Button / IN / 40px","actionItemGroups":[{"actionItems":[{"id":"a-33-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{"useEventTarget":"CHILDREN","selector":".cf-call-arrow","selectorGuids":["64c6e6fe-2d72-07c5-5432-16244375b833"]},"xValue":25,"yValue":-25,"xUnit":"px","yUnit":"px","zUnit":"PX"}},{"id":"a-33-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{"useEventTarget":"CHILDREN","selector":".cf-call-arrow-down","selectorGuids":["64c6e6fe-2d72-07c5-5432-16244375b832"]},"xValue":28,"yValue":-27,"xUnit":"px","yUnit":"px","zUnit":"PX"}},{"id":"a-33-n-3","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{},"xValue":2.5,"yValue":2.5,"locked":true}},{"id":"a-33-n-4","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{},"zValue":20,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1620990679203},"a-34":{"id":"a-34","title":"Call Button / OUT","actionItemGroups":[{"actionItems":[{"id":"a-34-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{"useEventTarget":"CHILDREN","selector":".cf-call-arrow","selectorGuids":["64c6e6fe-2d72-07c5-5432-16244375b833"]},"xValue":0,"yValue":0,"xUnit":"px","yUnit":"px","zUnit":"PX"}},{"id":"a-34-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{"useEventTarget":"CHILDREN","selector":".cf-call-arrow-down","selectorGuids":["64c6e6fe-2d72-07c5-5432-16244375b832"]},"xValue":0,"yValue":0,"xUnit":"px","yUnit":"px","zUnit":"PX"}},{"id":"a-34-n-3","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{},"zValue":0,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}},{"id":"a-34-n-4","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outExpo","duration":1000,"target":{},"xValue":1,"yValue":1,"locked":true}}]}],"useFirstGroupAsInitialState":false,"createdOn":1620990679203},"a-39":{"id":"a-39","title":"View More Link / IN","actionItemGroups":[{"actionItems":[{"id":"a-39-n","actionTypeId":"STYLE_SIZE","config":{"delay":0,"easing":"outExpo","duration":400,"target":{"useEventTarget":"CHILDREN","selector":".cf-view-more-line","selectorGuids":["224298e8-58dd-9aa3-ad75-8dcc24806f78"]},"heightValue":48,"widthUnit":"PX","heightUnit":"px","locked":false}},{"id":"a-39-n-2","actionTypeId":"STYLE_FILTER","config":{"delay":0,"easing":"outExpo","duration":400,"target":{"useEventTarget":"CHILDREN","selector":".cf-view-more-line","selectorGuids":["224298e8-58dd-9aa3-ad75-8dcc24806f78"]},"filters":[{"type":"grayscale","filterId":"0c70","value":0,"unit":"%"}]}},{"id":"a-39-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outExpo","duration":400,"target":{"useEventTarget":"CHILDREN","selector":".cf-view-more-line","selectorGuids":["224298e8-58dd-9aa3-ad75-8dcc24806f78"]},"value":0.15,"unit":""}},{"id":"a-39-n-4","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"outExpo","duration":400,"target":{},"zValue":45,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1643072442707},"a-40":{"id":"a-40","title":"View More Link / OUT","actionItemGroups":[{"actionItems":[{"id":"a-40-n","actionTypeId":"STYLE_SIZE","config":{"delay":0,"easing":"outExpo","duration":400,"target":{"useEventTarget":"CHILDREN","selector":".cf-view-more-line","selectorGuids":["224298e8-58dd-9aa3-ad75-8dcc24806f78"]},"heightValue":1,"widthUnit":"PX","heightUnit":"px","locked":false}},{"id":"a-40-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outExpo","duration":400,"target":{"useEventTarget":"CHILDREN","selector":".cf-view-more-line","selectorGuids":["224298e8-58dd-9aa3-ad75-8dcc24806f78"]},"value":1,"unit":""}},{"id":"a-40-n-3","actionTypeId":"STYLE_FILTER","config":{"delay":0,"easing":"outExpo","duration":400,"target":{"useEventTarget":"CHILDREN","selector":".cf-view-more-line","selectorGuids":["224298e8-58dd-9aa3-ad75-8dcc24806f78"]},"filters":[{"type":"grayscale","filterId":"a658","value":100,"unit":"%"}]}},{"id":"a-40-n-4","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"outExpo","duration":400,"target":{},"zValue":0,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1643072442707},"a-44":{"id":"a-44","title":"Banner moving","actionItemGroups":[{"actionItems":[{"id":"a-44-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"id":"65f0cba75b25f869542fc4be|dc0ca92a-ce6a-6722-742b-13c87c56ff26"},"xValue":0,"xUnit":"px","yUnit":"PX","zUnit":"PX"}}]},{"actionItems":[{"id":"a-44-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":10000,"target":{"id":"65f0cba75b25f869542fc4be|dc0ca92a-ce6a-6722-742b-13c87c56ff26"},"xValue":-558,"xUnit":"px","yUnit":"PX","zUnit":"PX"}}]},{"actionItems":[{"id":"a-44-n-3","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":0,"target":{"id":"65f0cba75b25f869542fc4be|dc0ca92a-ce6a-6722-742b-13c87c56ff26"},"xValue":0,"xUnit":"px","yUnit":"PX","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1707778190816},"a-45":{"id":"a-45","title":"Page Loader","actionItemGroups":[{"actionItems":[{"id":"a-45-n-3","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"id":"65f0cba75b25f869542fc4be|fb79b078-bc32-89e0-0a21-4f5e85213776"},"value":"block"}},{"id":"a-45-n-4","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"id":"65f0cba75b25f869542fc4be|f94e8d4b-1d84-e2ea-beb7-4e800dd5ed55"},"value":"block"}}]},{"actionItems":[{"id":"a-45-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":2000,"easing":"","duration":1500,"target":{"id":"65f0cba75b25f869542fc4be|fb79b078-bc32-89e0-0a21-4f5e85213776"},"value":0,"unit":""}},{"id":"a-45-n-5","actionTypeId":"STYLE_OPACITY","config":{"delay":2000,"easing":"","duration":1500,"target":{"id":"65f0cba75b25f869542fc4be|f94e8d4b-1d84-e2ea-beb7-4e800dd5ed55"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-45-n","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"id":"65f0cba75b25f869542fc4be|fb79b078-bc32-89e0-0a21-4f5e85213776"},"value":"none"}},{"id":"a-45-n-6","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"id":"65f0cba75b25f869542fc4be|f94e8d4b-1d84-e2ea-beb7-4e800dd5ed55"},"value":"none"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1709733157875},"a-14":{"id":"a-14","title":"Black Nav","actionItemGroups":[{"actionItems":[{"id":"a-14-n","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".walsh-nav-wrapper-green","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d08a"]},"globalSwatchId":"","rValue":0,"bValue":0,"gValue":0,"aValue":1}}]}],"useFirstGroupAsInitialState":false,"createdOn":1706385460311},"a-15":{"id":"a-15","title":"Transparent Nav","actionItemGroups":[{"actionItems":[{"id":"a-15-n","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"","duration":0,"target":{"selector":".walsh-nav-wrapper-green","selectorGuids":["34ef5ee4-11ec-3a2b-ad9a-aa926e20d08a"]},"globalSwatchId":"--transparent","rValue":255,"bValue":255,"gValue":255,"aValue":0}}]}],"useFirstGroupAsInitialState":true,"createdOn":1706385585266},"a-28":{"id":"a-28","title":"Testimonial16 -> LOOP","actionItemGroups":[{"actionItems":[{"id":"a-28-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":30000,"target":{"useEventTarget":"CHILDREN","selector":".uui-testimonial16_component","selectorGuids":["76d2639d-745d-82e9-b20c-aeca0c7c42e6"]},"xValue":-135,"xUnit":"rem","yUnit":"PX","zUnit":"PX"}}]},{"actionItems":[{"id":"a-28-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":0,"target":{"useEventTarget":"CHILDREN","selector":".uui-testimonial16_component","selectorGuids":["76d2639d-745d-82e9-b20c-aeca0c7c42e6"]},"xValue":0,"xUnit":"rem","yUnit":"PX","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1634186546050},"a-55":{"id":"a-55","title":"Gallery Slider Animation – In","actionItemGroups":[{"actionItems":[{"id":"a-55-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"xValue":0,"yValue":0,"xUnit":"%","yUnit":"%","zUnit":"PX"}},{"id":"a-55-n-2","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"xValue":1.1,"yValue":1.1,"locked":true}},{"id":"a-55-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-55-n-4","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"ease","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"value":1,"unit":""}},{"id":"a-55-n-5","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":1400,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-55-n-6","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":8000,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"xValue":-15,"yValue":15,"xUnit":"%","yUnit":"%","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1627026118975},"a-56":{"id":"a-56","title":"Gallery Slider Animation – Out","actionItemGroups":[{"actionItems":[{"id":"a-56-n","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"ease","duration":500,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"value":0,"unit":""}},{"id":"a-56-n-2","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":1400,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"xValue":1.1,"yValue":1.1,"locked":true}}]},{"actionItems":[{"id":"a-56-n-3","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":0,"target":{"useEventTarget":"CHILDREN","selector":".gallery-image","selectorGuids":["b7a63ff0-e4fb-c589-035e-f0d0572ce575"]},"xValue":0,"yValue":0,"xUnit":"%","yUnit":"%","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1627026118975},"a-63":{"id":"a-63","title":"FAQs / Open 3","actionItemGroups":[{"actionItems":[{"id":"a-63-n","actionTypeId":"STYLE_SIZE","config":{"delay":0,"easing":"","duration":0,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"heightValue":0,"widthUnit":"PX","heightUnit":"px","locked":false}},{"id":"a-63-n-2","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"value":"none"}},{"id":"a-63-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":0,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-63-n-4","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"value":"block"}}]},{"actionItems":[{"id":"a-63-n-5","actionTypeId":"STYLE_SIZE","config":{"delay":0,"easing":"outExpo","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"widthUnit":"PX","heightUnit":"AUTO","locked":false}},{"id":"a-63-n-6","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outExpo","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"value":1,"unit":""}},{"id":"a-63-n-7","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"outExpo","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-line-vertical","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05b"]},"zValue":90,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1638549681280},"a-64":{"id":"a-64","title":"FAQs / Close 3","actionItemGroups":[{"actionItems":[{"id":"a-64-n","actionTypeId":"STYLE_SIZE","config":{"delay":0,"easing":"outExpo","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"heightValue":0,"widthUnit":"PX","heightUnit":"px","locked":false}},{"id":"a-64-n-2","actionTypeId":"TRANSFORM_ROTATE","config":{"delay":0,"easing":"outExpo","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-line-vertical","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05b"]},"zValue":0,"xUnit":"DEG","yUnit":"DEG","zUnit":"deg"}},{"id":"a-64-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outExpo","duration":300,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-64-n-4","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"outExpo","duration":0,"target":{"useEventTarget":"CHILDREN","selector":".cf-faq-answer-wrap-2","selectorGuids":["fa715414-098b-bf60-52e1-7a26379ce05a"]},"value":"none"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1638550132964},"a-65":{"id":"a-65","title":"Hide Pop-up","actionItemGroups":[{"actionItems":[{"id":"a-65-n","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"selector":".pop-up-wrapper","selectorGuids":["d85cc054-8947-0d34-140b-96e2c2c0f14b"]},"value":"none"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1712271753468},"a-66":{"id":"a-66","title":"Show Pop Up","actionItemGroups":[{"actionItems":[{"id":"a-66-n","actionTypeId":"GENERAL_DISPLAY","config":{"delay":0,"easing":"","duration":0,"target":{"selector":".pop-up-wrapper","selectorGuids":["d85cc054-8947-0d34-140b-96e2c2c0f14b"]},"value":"flex"}}]}],"useFirstGroupAsInitialState":false,"createdOn":1712271753468},"shrinkIn":{"id":"shrinkIn","useFirstGroupAsInitialState":true,"actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":1.25,"yValue":1.25}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":1,"yValue":1}},{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":1}}]}]},"slideInLeft":{"id":"slideInLeft","useFirstGroupAsInitialState":true,"actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":-100,"yValue":0,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}}]},{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":1}},{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":0,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}}]}]},"growIn":{"id":"growIn","useFirstGroupAsInitialState":true,"actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0.7500000000000001,"yValue":0.7500000000000001}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":1,"yValue":1}},{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":1}}]}]},"slideInBottom":{"id":"slideInBottom","useFirstGroupAsInitialState":true,"actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":100,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":0,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}},{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":1}}]}]}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}
 );
