@@ -5012,6 +5012,11 @@
   display: inline-block;
 }
 
+.image-14 {
+  width: 100%;
+  display: inline-block;
+}
+
 ._2-grids {
   grid-column-gap: 140px;
   grid-template-rows: auto;
@@ -9242,6 +9247,11 @@
     min-height: 400px;
   }
 
+  .image-14 {
+    border-radius: 100%;
+    min-height: 400px;
+  }
+
   ._2-grids {
     grid-template-columns: 1fr;
   }
@@ -10249,6 +10259,12 @@
   .image-12 {
     border-radius: 100%;
     max-width: 279px;
+    min-height: 250px;
+  }
+
+  .image-14 {
+    border-radius: 0%;
+    max-width: 350px;
     min-height: 250px;
   }
 
